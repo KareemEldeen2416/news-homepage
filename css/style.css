@@ -254,11 +254,12 @@ span{
         flex-wrap: wrap;
         flex-direction: row;
         top: 13px;
-        right: 48%;
+        right: 41%;
         width: fit-content;
-        height: 40px;
+        height: 50px;
         background-color: transparent;
         padding:0;
+        visibility: visible;
         
     }
 
@@ -272,12 +273,13 @@ span{
         margin-top:0;
         padding: 0;
         font-family: Inter;
-        font-size: 10pt;
+        font-size: 14pt;
         font-weight: 500;
     }
     
     .item{
         padding: 10px;
+        padding-right: 20px;
     }
 
     .item:hover{
@@ -324,8 +326,9 @@ span{
         color: black;
         font-weight: 900;
         font-size: 32pt;
-        width: 85%;
+        width: 100%;
         height: fit-content;
+        margin-left: 0;
     }
 
     .imageContainer{
@@ -357,7 +360,7 @@ span{
         color: #c3c4c9;
         display: block;
         margin-bottom: 16px;
-        font-size: 8pt;
+        font-size: 12pt;
     }
 
     .info{
@@ -376,7 +379,7 @@ span{
         grid-area: 14 / 25 / 18 / 48;
         padding-top: 10px;
         font-family: Inter;
-        font-size: 10pt;
+        font-size: 12pt;
         font-weight: 300;
     }
     
@@ -385,7 +388,7 @@ span{
         color: white;
         grid-area: 18 / 25 / 20 / 48;
         font-family: Inter;
-        font-size: 8pt;
+        font-size: 12pt;
         font-weight: bold;
         letter-spacing: 2px;
         outline: none;
