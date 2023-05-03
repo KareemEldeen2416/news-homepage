@@ -305,7 +305,7 @@ span{
         background-color: #fefdf9;
         display: grid;
         grid-template-columns: repeat(72,1fr);
-        grid-template-rows: repeat(26, 20px);
+        grid-template-rows: repeat(26, 25px);
         padding: 5px;
     }
 
