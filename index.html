@@ -5,56 +5,111 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/style.css" class="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
   
   <title>Frontend Mentor | News homepage</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
 
-  Home
-  New
-  Popular
-  Trending
-  Categories
+  <div class="menu">
+    <img src="assets/images/icon-menu-close.svg" alt="close icon" id="closeIcon">
+    <ul class="menuItems">
+      <li class="item">Home</li>
+      <li class="item">New</li>
+      <li class="item">Popular</li>
+      <li class="item">Trending</li>
+      <li class="item">Categories</li>
+    </ul>
+  </div>
 
-  The Bright Future of Web 3.0?
 
-  We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
-  But is it really fulfilling its promise?
+  <div class="container">
+    <div class="header">
+      <label class="address">W.</label>
+      <button id="menuButton" style="border: none; outline: none; background-color: transparent;">
+        <img src="assets/images/icon-menu.svg" alt="Menu" class="menuIcon">
+      </button>
+    </div>
 
-  Read more
 
-  New 
+    
 
-  Hydrogen VS Electric Cars
-  Will hydrogen-fueled cars ever catch up to EVs?
 
-  The Downsides of AI Artistry
-  What are the possible adverse effects of on-demand AI image generation?
 
-  Is VC Funding Drying Up?
-  Private funding by VC firms is down 50% YOY. We take a look at what that means.
+    <div class="imageContainer">
+      <img src="assets/images/image-web-3-desktop.jpg" alt="news image" class="newsImage">
+    </div>
+    
+    <div class="info">
+      
+        The Bright<wbr>
+        Future of web<wbr>
+        3.0?
+      
+    </div>
 
-  01
-  Reviving Retro PCs
-  What happens when old PCs are given modern upgrades?
-
-  02
-  Top 10 Laptops of 2022
-  Our best picks for various needs and budgets.
-
-  03
-  The Growth of Gaming
-  How the pandemic has sparked fresh opportunities.
+    <div class="explain">
+      We dive into the next evolution of web that<wbr>claims to put the power of the platforms back<wbr>into the hands of people.But it is really<wbr>
+      fulfilling its promise?
+    </div>
+     
+    <button class="read">READ MORE</button>
   
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    <div class="news">
+      <h1 class="new">New</h1>
+      <h2>Hydrogen VS Electric Cars</h2>
+      <span>
+        Will hydrogen-fueled cars ever catch up<wbr>to EVs?
+      </span>
+      <hr>
+      <h2>The Downsides of AI Artistry</h2>
+      <span>
+        What are the possible adverse effect of <wbr>on-demand AI image generation?
+      </span>
+      <hr>
+      <h2>Is VC Funding Drying Up</h2>
+      <span>
+        Private funding by VC firms is down 50%<wbr>YOY. We take a look at what that means.
+      </span>
+    </div>
+
+    <div class="card one">
+      <img src="assets/images/image-retro-pcs.jpg" alt="Retro PC" class="cardImage">
+      <div class="cardInfo">
+        <h1>01</h1>
+        <h2 class="cardTitle">Reviving Retro PCs</h2>
+        <span>
+          What happens when old PCs<wbr>are given modern upgrades?
+        </span>
+      </div>
+    </div>
+
+    <div class="card two">
+      <img src="assets/images/image-top-laptops.jpg" alt="Top Laptops" class="cardImage">
+      <div class="cardInfo">
+        <h1>02</h1>
+        <h2 class="cardTitle">Top Ten Laptops of 2022</h2>
+        <span>
+          Our best picks for various<wbr>needs and budget.
+        </span>
+      </div>
+    </div>
+
+    <div class="card three">
+      <img src="assets/images/image-gaming-growth.jpg" alt="Growth of gaming" class="cardImage">
+      <div class="cardInfo">
+        <h1>03</h1>
+        <h2 class="cardTitle">The Growth of Gaming</h2>
+        <span>
+          How the pandemic has<wbr>sparked fresh opportunities.
+        </span>
+      </div>
+    </div>
+
+   
   </div>
 </body>
+<script src="js/app.js"></script>
 </html>
